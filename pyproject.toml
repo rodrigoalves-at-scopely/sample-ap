@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sample-app"
+version = "0.1.0"
+description = ""
+authors = ["D. Null <devnull@test.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+mysql-connector-python = "^8.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
